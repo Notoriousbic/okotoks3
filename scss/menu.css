@@ -1,0 +1,71 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: grey;
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 53.3vw;
+  display: -ms-grid;
+  display: grid;
+}
+
+header {
+  height: 25vh;
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr;
+      grid-template-columns: 2fr;
+}
+
+header img {
+  width: 200px;
+  height: 174px;
+}
+
+nav {
+  height: 4.13vh;
+  margin-top: 1vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.5fr 1fr 0.5fr;
+      grid-template-columns: 0.5fr 1fr 0.5fr;
+}
+
+#main {
+  height: 45vh;
+  display: -ms-grid;
+  display: grid;
+}
+
+#main #mainwrap1 {
+  width: 40vw;
+}
+
+footer {
+  height: 10.3vh;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: left;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+p {
+  font-size: 1.2rem;
+  text-align: left;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*# sourceMappingURL=menu.css.map */
