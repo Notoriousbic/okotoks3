@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 html {
   height: 100%;
 }
@@ -6,7 +11,6 @@ body {
   background-color: grey;
   background-image: url(/images/background3.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .container {
@@ -32,7 +36,6 @@ header img {
 }
 
 #mobile-nav {
-  height: 1vh;
   margin-top: 1vh;
   display: -ms-grid;
   display: grid;
@@ -105,10 +108,9 @@ header img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  top: 10;
-  left: 0;
   height: 265px;
   opacity: 0;
+  left: 0;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   text-decoration: none;
@@ -120,23 +122,34 @@ header img {
 }
 
 #main {
-  height: 66vh;
+  height: 62.5vh;
   display: -ms-grid;
   display: grid;
+  background-color: #d8b9936b;
+  width: 100%;
+  text-align: center;
+  border-radius: 25px;
+  border: solid black;
 }
 
-#main #mainwrap1 {
-  width: 40vw;
+#main #iframe1 iframe {
+  width: 100%;
+  border: solid black;
+  border-radius: 25px;
 }
 
-#main2 {
-  height: 66vh;
-  display: -ms-grid;
-  display: grid;
+#main #iframe2 iframe {
+  border-radius: 25px;
+  width: 100%;
+  height: 100%;
+  border: solid black;
 }
 
-#main2 #mainwrap1 {
-  width: 40vw;
+#main img {
+  height: 100%;
+  width: 100%;
+  border-radius: 25px;
+  border: solid black;
 }
 
 .button2 {
@@ -145,14 +158,13 @@ header img {
   display: grid;
   text-align: center;
   color: black;
-  font-size: 1.2rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 23px;
 }
 
 footer {
   height: 5vh;
   border-radius: 25px;
-  background: #BE7938;
+  background-color: #BE7938;
   width: 12.5rem;
   display: -ms-grid;
   display: grid;
@@ -160,7 +172,11 @@ footer {
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
   width: 100%;
+  bottom: 0;
+  color: white;
   font-family: 'Cutive Mono', monospace;
+  color: black;
+  border: solid black;
 }
 
 h1 {
@@ -172,15 +188,15 @@ h1 {
 }
 
 p {
-  font-size: 1.2rem;
-  text-align: left;
+  font-size: .6rem;
+  text-align: center;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: none;
 }
 
 #number {
-  padding-left: 120px;
+  font-size: 24px;
   color: black;
 }
 
@@ -193,6 +209,7 @@ p {
 @media screen and (max-width: 600px) {
   #number {
     display: none;
+    padding-right: 250px;
   }
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=aboutus.css.map */
