@@ -8,7 +8,7 @@ html {
 
 body {
     background-color: grey;
-    background-image: url(/images/background3.jpg);
+    background-image: url(/okotoks3/images/background3.jpg);
     background-size: cover;
 
 }
@@ -115,7 +115,7 @@ body {
 }
 
 #main {
-    height: 62.5vh;
+    height: 20vh;
     display: grid;
     background-color: #d8b9936b;
     width: 100%;
@@ -209,6 +209,10 @@ p {
     #number {
         display: none;
         padding-right: 250px;
+    }
+
+    #main {
+        height: 58vh;
     }
 }
 
