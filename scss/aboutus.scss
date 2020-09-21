@@ -19,6 +19,7 @@ body {
     margin-right: auto;
     width: 53.3vw;
     display: grid;
+    row-gap: 2px;
 }
 
  header {
@@ -115,7 +116,7 @@ body {
 }
 
 #main {
-    height: 20vh;
+    height: 350px;
     display: grid;
     background-color: #d8b9936b;
     width: 100%;
@@ -210,9 +211,6 @@ p {
         display: none;
         padding-right: 250px;
     }
-
-    #main {
-        height: 58vh;
     }
 }
 
