@@ -116,13 +116,16 @@ body {
 }
 
 #main {
-    height: 600px;
     display: grid;
     background-color: #d8b9936b;
     width: 100%;
     text-align: center;
     border-radius: 25px;
     border: solid black;
+    
+    #mainwrap1 {
+    height: 400px;
+    }
 
     #iframe1 {
         iframe {
